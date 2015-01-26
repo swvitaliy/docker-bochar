@@ -1,3 +1,5 @@
 #!/bin/bash
 
-docker run --rm -v $(pwd)/slides:/opt/slides -p 8000:8000 -it swvitaliy/bochar
+JOB=$(docker run --user=$(id -u):$(id -g) -v $(pwd)/slides:/opt/slides -d swvitaliy/bochar)
+cd $(pwd)/slides && python -m SimpleHTTPServer 8000 
+docker rm -f $JOB
