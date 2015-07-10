@@ -17,3 +17,7 @@ https://www.npmjs.com/package/bochar
     
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swvitaliy/docker-bochar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
